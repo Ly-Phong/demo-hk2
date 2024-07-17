@@ -1,0 +1,18 @@
+  .slider-container {
+    display: flex;
+    justify-content: center; /* Canh giữa slider container */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    max-width: 1440px; /* Độ rộng tối đa */
+    margin: 0 auto; /* Canh giữa container trong trang */
+  }
+  
+  .slider-image {
+    display: flex;
+    justify-content: center; /* Canh giữa ảnh bên trong slider */
+  }
+  
+  .slider-image img {
+    max-width: 100%; /* Độ rộng tối đa là 100% của phần tử cha */
+    height: auto; /* Chiều cao tự động điều chỉnh để giữ nguyên tỷ lệ */
+  }
+  

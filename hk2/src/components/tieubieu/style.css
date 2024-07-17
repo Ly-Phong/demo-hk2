@@ -1,0 +1,220 @@
+.tieu {
+  background-image: url('../../../public/tainguyen/baground-home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tieu .Tieude {
+  margin-bottom: 20px;
+}
+
+.tieu .Hangtop,
+.tieu .Hangbottom {
+  margin-bottom: 20px;
+}
+
+.hangtop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hangbot {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.product-item .product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-item .product-price {
+  font-size: 16px;
+  color: #f00;
+  margin: 5px 0;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img:hover {
+  transform: scale(1.05);
+}
+
+.product-item .product-name:hover {
+  color: red;
+}
+
+.tieu {
+  /* background-image: url('../../../public/tainguyen/baground-home.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tieu .Tieude {
+  margin-bottom: 20px;
+}
+
+.tieu .Hangtop,
+.tieu .Hangbottom {
+  margin-bottom: 20px;
+}
+
+/* modal */
+.hangtop {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  /* Ẩn phần text khi hover */
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-out;
+}
+
+.product-item:hover img {
+  transform: scale(1.1);
+  /* Hiệu ứng phóng to khi hover */
+}
+
+.product-name,
+.product-price {
+  margin: 10px 0;
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-info {
+  margin: 10px 0;
+}
+
+.modal-link {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.modal-link:hover {
+  text-decoration: none;
+}
+
+/* button */
+.close-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: #d32f2f;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-info {
+  margin: 10px 0;
+}
+
+.modal-link {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.modal-link:hover {
+  text-decoration: none;
+}
+
+.tieu {
+  padding: 50px 0;
+}

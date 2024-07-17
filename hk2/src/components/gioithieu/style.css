@@ -1,0 +1,67 @@
+.videop p {
+    color: black;
+}
+
+.videop a {
+    color: black;
+    font-size: 24px;
+    font-family: Montserrat;
+    /* float: right; */
+}
+
+.videop a :hover {
+    color: red;
+}
+
+.iframe-container {
+    float: left;
+    width: auto;
+}
+
+.foot p {
+    color: black;
+}
+
+/* style.css */
+.imggioi {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.imggioi img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+.imggioi p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.imggioi:hover img {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.imggioi:hover p {
+    color: #ffeb3b;
+    transition: color 0.3s ease-in-out;
+}
+
+.hangbot{
+    display: flex;
+    justify-content: space-between;
+}
+/* .uudai {
+    float: left;
+} */

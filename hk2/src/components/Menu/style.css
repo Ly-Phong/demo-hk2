@@ -1,0 +1,9 @@
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: 0 120px; */
+    padding-left: 100px;
+    padding-right: 200px;
+    background-color: white;
+}
